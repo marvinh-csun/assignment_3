@@ -1,5 +1,5 @@
-#Assignment 3
-#Part 0 Installation
+Assignment 3
+Part 0 Installation
 Step 1. Make sure you have docker installed and install php composer 
 ```
 https://getcomposer.org/doc/00-intro.md
