@@ -1,11 +1,11 @@
-Assignment 3
-Part 0 Installation
-Step 1. Make sure you have docker installed and install php composer 
+##Assignment 3
+##Part 0 Installation
+##Step 1. Make sure you have docker installed and install php composer 
 ```
 https://getcomposer.org/doc/00-intro.md
 
 ```
-Step 2. Go to the root directory
+##Step 2. Go to the root directory
 run
 ```
 ./vendor/bin/sail up
@@ -21,9 +21,8 @@ To add the yelp data set into the table run
 ```
 ./vendor/bin/sail artisan db:seed --class=BusinessSeeder
 ```
-#Part 1 Backend
+##Part 1 Backend
 Build out the rest of the endpoint started for you at this route. Do backend first then think of a method to display this on a front end framework posting your search results while paginating the data and ordering by the various field in the database. Do not do client side pagination order sorting only server side.
-in
 ```
 routes/api.php
 Route::post('/business/search',function(Request $request){
@@ -39,7 +38,7 @@ Route::post('/business/search',function(Request $request){
     return response($businesses);
 });
 ```
-#Part 2
+##Part 2
 Create a frontend for this api endpoint
 sorting and searching what ever fields you find interesting try to do at least to or 3 search fields
 Make sure to paginate your data. Returning only 25-100 entries max at a time.
