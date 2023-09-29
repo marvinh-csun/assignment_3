@@ -5,6 +5,7 @@
 https://getcomposer.org/doc/00-intro.md
 
 ```
+## inside root directory of this project
 ```
 composer install
 ```
