@@ -5,6 +5,9 @@
 https://getcomposer.org/doc/00-intro.md
 
 ```
+```
+composer install
+```
 ## Step 2. Go to the root directory
 run
 ```
@@ -42,3 +45,5 @@ Route::post('/business/search',function(Request $request){
 Create a frontend for this api endpoint
 sorting and searching what ever fields you find interesting try to do at least to or 3 search fields
 Make sure to paginate your data. Returning only 25-100 entries max at a time.
+
+## You dont have to user larevel for your api but this is the quickest way to seed a database instance with yelp data which will then be available to you through docker
