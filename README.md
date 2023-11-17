@@ -1,3 +1,4 @@
+https://learn.microsoft.com/en-us/windows/wsl/install for windows
 ```
 APP_NAME=Laravel
 APP_ENV=local
